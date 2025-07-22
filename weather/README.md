@@ -1,12 +1,39 @@
-# React + Vite
+# 🌤️ Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive weather dashboard built with **React**, **Vite**, and **Bootstrap**, using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Current weather display (temperature, humidity, wind speed)
+- 3-day forecast
+- Responsive UI
+- Loading states
+- Custom environment variable for API key
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap](https://getbootstrap.com/)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+
+## ⚙️ Installation
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/johnhany10/Submission-Tasks.git
+cd Submission-Tasks/weather
+
+# 2. Install dependencies
+npm install
+
+# 3. Add your API key
+# Create a new file named .env in the root of the project
+touch .env
+
+# Then open the file and add the following line 
+VITE_WEATHER_API_KEY=8911ac6c7cabfb8012206389a304d3b1
+
+# 4. Run the app
+npm run dev
