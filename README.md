@@ -1,6 +1,6 @@
 # Full-Stack & UI Assessment Tasks – Weather Dashboard & Favorites Feature
 
-This repository contains two separate frontend-focused tasks aimed at evaluating practical skills in real-world full-stack and UI development.
+This repository contains two separate tasks aimed at evaluating practical skills in real-world full-stack and UI development.
 
 ## 📁 Project Structure
 
