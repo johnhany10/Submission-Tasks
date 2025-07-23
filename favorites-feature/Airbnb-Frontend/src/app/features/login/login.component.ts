@@ -62,16 +62,6 @@ export class LoginComponent implements OnInit, OnDestroy {
           console.log(response);
           localStorage.setItem('accessToken', (response.accessToken));
           localStorage.setItem('refreshToken', (response.refreshToken));
-          
-          //singularity/////////
-
-          const userId = this.authService.getAccessTokenClaim('http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier')
-          localStorage.setItem('userId' , userId)
-
-
-          //////////////////////
-
-
           this.authService.isLoggedIn = true;
           this.authService.isLoggedInSubject.next(true);
           this.isLoading = false;
