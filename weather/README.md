@@ -42,7 +42,7 @@ npm run dev
 ## 🌐 Live Demo
 
 Check out the live version of the app here:  
-[https://weather-7h7d02gpi-john-hanys-projects.vercel.app/](https://weather-7h7d02gpi-john-hanys-projects.vercel.app/)
+[Weather-Dashboard](https://weather-self-sigma-58.vercel.app/)
 
 ## 🧠 What Was New for Me and How I Approached It
 
