@@ -37,3 +37,19 @@ VITE_WEATHER_API_KEY=8911ac6c7cabfb8012206389a304d3b1
 
 # 4. Run the app
 npm run dev
+
+```
+## 🌐 Live Demo
+
+Check out the live version of the app here:  
+[https://weather-7h7d02gpi-john-hanys-projects.vercel.app/](https://weather-7h7d02gpi-john-hanys-projects.vercel.app/)
+
+## 🧠 What Was New for Me and How I Approached It
+
+- It was my **first time using React**.
+- I learned about core concepts like **JSX**, **hooks** (`useState`, `useEffect`), and how to **fetch data using Axios**.
+- I followed a **React crash course** to build a basic understanding.
+- I experimented and learned through **hands-on practice and AI assistance**.
+- I deployed the project using **Vercel**, which gave me experience with **hosting and deployment**.
+
+
